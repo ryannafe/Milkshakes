@@ -1,0 +1,31 @@
+﻿@{
+    Layout = null;
+}
+@{
+ <!DOCTYPE html>
+ <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Demo Application</title>
+        <script src="https://unpkg.com/vue-router@2.0.0/dist/vue-router.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+        <link rel="stylesheet" href="~/css/site.css" />
+    </head>
+    <body>
+        <div id="app" class="view-holder">
+            <div class="view first">
+                {{views.one}}
+            </div>
+            <div class="view second">
+                {{views.two}}
+            </div>
+            <div class="view third">
+                <img src="~/img/milkshake.jpg" />
+            </div>
+        </div>
+        <script src="~/js/site.js"></script>
+    </body>
+</html>
+}
